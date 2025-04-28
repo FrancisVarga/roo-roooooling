@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Structure Rule
+
+This project contains the following main directories:
+
+- `.roo/` — Contains system prompt flow files, such as:
+  - [system-prompt-flow-debug](mdc:.roo/system-prompt-flow-debug)
+  - [system-prompt-flow-code](mdc:.roo/system-prompt-flow-code)
+  - [system-prompt-flow-ask](mdc:.roo/system-prompt-flow-ask)
+  - [system-prompt-flow-architect](mdc:.roo/system-prompt-flow-architect)
+
+- `coconut/` — Contains coconut-related modules, such as:
+  - [coconut-dreamaker](mdc:coconut/coconut-dreamaker)
+  - [coconut-devops](mdc:coconut/coconut-devops)
+  - [coconut-nextjs-developer](mdc:coconut/coconut-nextjs-developer)
+
+- `.roomodes` — (File, purpose not yet documented)
+
+```mermaid
+flowchart TD
+    A[.roo] --> B[system-prompt-flow-debug\nsystem-prompt-flow-code\nsystem-prompt-flow-ask\nsystem-prompt-flow-architect]
+    C[coconut] --> D[coconut-dreamaker\ncoconut-devops\ncoconut-nextjs-developer]
+    E[.roomodes]
+```
+
+Refer to the listed files for more details on each module or flow.
+
