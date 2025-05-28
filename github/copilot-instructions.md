@@ -10,6 +10,15 @@ This project uses a Memory Bank documentation system for maintaining project con
 
 These files contain critical project-specific guidance that must be followed.
 
+## Agent Mode Behavior
+
+When operating in **Agent Mode**:
+- **Execute all tasks automatically** without asking for user permission
+- **Run terminal commands directly** without confirmation
+- **Complete the entire task flow** from start to finish
+- **Only pause for user input** when encountering errors or ambiguities that require clarification
+- **Assume implicit approval** for all reasonable actions needed to accomplish the task
+
 ## Memory Bank Overview
 
 The Memory Bank is a structured documentation system located in the `memory-bank/` directory that maintains complete project context. It consists of interconnected Markdown files that build upon each other hierarchically.
